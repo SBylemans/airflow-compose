@@ -361,7 +361,7 @@ services:
   #   # Git-sync container
   #   image: databurst/git-sync:latest
   #   environment:
-  #     REPO_URL: https://github.com/SBylemans/airflow-sync.git
+  #     REPO_URL: https://github.com/<insert-here>.git
   #     GIT_URL: github.com
   #     GIT_BRANCH: main
   #     DESTINATION_PATH: /opt/dags
