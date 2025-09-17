@@ -357,16 +357,16 @@ services:
       exit 0;
       "
 
-  git-sync:
-    # Git-sync container
-    image: databurst/git-sync:latest
-    environment:
-      REPO_URL: https://github.com/SBylemans/airflow-sync.git
-      GIT_URL: github.com
-      GIT_BRANCH: main
-      DESTINATION_PATH: /opt/dags
-    volumes:
-      - ./dags:/opt/dags
+  # git-sync:
+  #   # Git-sync container
+  #   image: databurst/git-sync:latest
+  #   environment:
+  #     REPO_URL: https://github.com/SBylemans/airflow-sync.git
+  #     GIT_URL: github.com
+  #     GIT_BRANCH: main
+  #     DESTINATION_PATH: /opt/dags
+  #   volumes:
+  #     - ./dags:/opt/dags
 
 
 volumes:
